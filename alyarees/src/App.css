@@ -29,6 +29,32 @@
   color: white;
 }
 
+.header-space {
+  background-color: #eaecf1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.menu {
+  margin-left: auto;
+}
+
+.menu a {
+  color: #000000;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 20px;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -42,6 +68,3 @@
   }
 }
 
-.header-content{
-  padding: 0 19px 0 24px;
-}
