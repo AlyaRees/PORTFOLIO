@@ -26,8 +26,8 @@ function App() {
         </a>
         <div className="menu">
           <ul>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
             <a href="#" onClick={toggleSubMenu} className={isSubMenuOpen ? 'open' : ''}>Menu</a>
             <a href="#">Light/Dark</a>
             </ul>
